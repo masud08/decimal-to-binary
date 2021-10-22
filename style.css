@@ -1,7 +1,71 @@
+body{
+    background-color: red;
+}
 .container{
     margin: 50px auto;
 }
 
+.form{
+    width: 600px;
+    height: 400px;
+    background-color: wheat;
+    border-radius: 20px;
+    margin: auto auto;
+}
+.head{
+    margin-top: 20px !important;
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+#number{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    background-color: wheat;
+}
 #result{
+    /* background-color: white; */
+    width: 90%;
+    height: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
     visibility: hidden;
+    
+}
+.line{
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+button{
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: green;
+    cursor: pointer;
+}
+.binary{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-weight: 200;
+    font-size: 20px;
 }
